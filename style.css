@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #101320;
+}
+
+h1, hr, .card-custom{
+    color: azure;
+}
+
+.card-custom{
+    background: #1e233b;
+    border: none;
+}
+
+.f-700{
+    font-weight: 700;
+}
