@@ -8,6 +8,18 @@ body{
     background-color: #101320;
 }
 
+.contenedor{
+    width: 70%;
+    margin: auto;
+    display: flexbox;
+    text-align: center;
+    color: azure;
+    justify-content: center;
+}
+
+.contenedor > div{
+    margin-bottom: 2vh;
+}
 h1, hr, .card-custom{
     color: azure;
 }
@@ -20,3 +32,12 @@ h1, hr, .card-custom{
 .f-700{
     font-weight: 700;
 }
+
+.col {
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+    text-align: center;
+ }
