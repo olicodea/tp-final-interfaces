@@ -18,7 +18,7 @@ body{
 }
 
 .contenedor > div{
-    margin-bottom: 2vh;
+    margin-bottom: 6vh;
 }
 h1, hr, .card-custom{
     color: azure;
