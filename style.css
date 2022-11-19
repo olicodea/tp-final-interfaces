@@ -33,6 +33,10 @@ h1, hr, .card-custom{
     font-weight: 700;
 }
 
+.titulo{
+    margin-top: 6vh;
+}
+
 .col {
     -moz-hyphens:auto;
     -ms-hyphens:auto;
@@ -40,4 +44,18 @@ h1, hr, .card-custom{
     hyphens:auto;
     word-wrap:break-word;
     text-align: center;
+ }
+
+ header{
+    font-size: 4vh;
+ }
+
+ .contenedor-IniciarSesion{
+    color: azure;
+
+ }
+
+ .contenedor-IniciarSesion > div >div{
+    min-height: 100vh;
+    align-items: center;
  }
