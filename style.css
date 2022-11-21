@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -66,4 +67,13 @@ h1, hr, .card-custom, p{
 
 ul{
     list-style: none;
+ }
+
+ .clase-detalle-button{
+    height: 70px;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
  }
