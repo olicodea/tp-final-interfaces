@@ -95,20 +95,25 @@
         </div>
       </nav>
     </header>
-    <div class="container p-4">
-      <h1>Clase en vivo</h1>
-      <div
-        class="row d-flex justify-content-center align-items-center py-5 vivo rounded-2 my-4"
-      >
+    <h1 class="mt-3 ps-4">Clase en vivo</h1>
+    <div
+      class="d-flex flex-column flex-xl-row px-4 px-xl-3 mt-4 mt-xl-5 align-items-xl-start"
+    >
+      <div class="row mx-auto mx-xl-0 col-lg-10 col-xl-8 col-12 pe-xl-3">
         <img
-          src="../imagenes/play-icon-circle.svg"
+          src="../imagenes/reproductor-01.png"
           alt="clase en vivo"
-          class="w-50"
+          class="p-0"
         />
       </div>
-      <div class="row bg-dark.bg-gradient vivo rounded-2">
+
+      <div
+        class="row col-12 col-lg-10 col-xl-4 mx-auto mx-xl-0 bg-dark.bg-gradient vivo rounded-2 mt-4 mt-xl-0"
+      >
         <ul class="py-3">
-          <li class="d-flex align-items-start vivo-mensaje rounded-2 chat-mensaje">
+          <li
+            class="d-flex align-items-start vivo-mensaje rounded-2 chat-mensaje"
+          >
             <img src="../imagenes/account-icon-circle.svg" alt="" />
             <p class="ms-3 p-0 mb-0">
               Buenas tardes! Mi nombre es Juan y me dedico al desarrollo web, me
@@ -130,17 +135,15 @@
             </p>
           </li>
         </ul>
-      </div>
-      <div class="row">
         <div class="input-group mt-3 p-0">
           <input
             type="text"
-            class="form-control col-10 py-2"
+            class="form-control py-2"
             placeholder="Escribir..."
             aria-label="Escribir en el chat"
           />
           <button
-            class="btn btn-outline-secondary col-2 d-flex justify-content-center align-items-center"
+            class="btn btn-outline-secondary d-flex justify-content-center align-items-center"
             type="button"
             id="button-addon2"
           >
