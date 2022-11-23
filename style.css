@@ -18,6 +18,12 @@ body{
     justify-content: center;
 }
 
+@media only screen and (max-width:576px){
+   .contenedor{
+      width: 90%;
+   }
+}
+
 .contenedor > div{
     margin-bottom: 6vh;
 }
@@ -112,3 +118,12 @@ ul{
     width: 45px;
     height: 45px;
  }
+
+h2{
+  margin-bottom: -30px;
+ }
+
+.imagenIndex > img{
+   height: 150px;
+   object-fit: cover;
+}
