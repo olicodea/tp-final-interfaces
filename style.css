@@ -87,5 +87,13 @@ ul{
  }
 
  .navbar-custom{
+    background-color: #6C7DD4;
+ }
+
+ .navbar-custom-2{
     background-color: #1E233B;
+ }
+
+ .dropdown-custom{
+    background-color: #455087;
  }
